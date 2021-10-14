@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "//test": "jest --config=jest.config.js src/index.js",
+    "test": "jest src"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "browserify": "^17.0.0",
+    "jest": "^27.2.5",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.3.1",
+    "tape-run": "^9.0.0",
+    "vite": "^2.6.7"
+  }
+}
